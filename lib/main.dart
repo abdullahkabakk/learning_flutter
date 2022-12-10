@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import '101/stateful_life_cycle_learn.dart';
-import '101/text_field_learn.dart';
+import '101/navigation_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
             elevation: 0,
           )),
-      home: TextFieldView(),
+      home: NavigationLearn(),
       debugShowCheckedModeBanner: false,
     );
   }
